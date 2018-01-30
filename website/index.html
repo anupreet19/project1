@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome to our new website</title>
+    <meta charset=utf-8 ""/>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content-type="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+
+    </script>
+    <script>
+        $("#ss>div:gt(0)").hide();
+        setInterval(function () {
+            $('#ss>div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#ss');
+        }, 3000);
+    </script>
+</head>
+
+<body>
+    <header class="p">
+        <p>Contact us on : +91-7838970330 | Email us at : jcbhatt@supplyzone.com</p>
+    </header>
+    <header class="mainheader">
+        <header class="logo">
+            <img src="http://supplyzone.in/img/logo.png" />
+        </header>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Site map</a></li>
+        </ul>
+    </header>
+    <div id="ss">
+        <div>
+            <img id="i2" src="/home/anu/Pictures/web/i2.png" />
+        </div>
+        <div>
+            <img id="i3" src="/home/anu/Pictures/web/i3.png" />
+        </div>
+        <div>
+            <img id="i1" src="/home/anu/Pictures/web/i1.png" />
+        </div>
+    </div>
+    <div class="container">
+        <ul class="pro-list">
+            <li>
+                <div id="im1">
+                    <img src="https://fcdn.co.uk/media/i/jpg/21957/1526/1147/pad/85/" alt="Steel Products" />
+                </div>
+                <div id="hd1">
+                    <h1>Steel Products</h1>
+                </div>
+            </li>
+            <li>
+                <div id="im2">
+                    <img src="https://4.imimg.com/data4/TU/AX/MY-2022088/1-250x250.jpg" alt="Sheet metal components" />
+                </div>
+                <div id="hd2">
+                    <h1>Sheet metal components</h1>
+                </div>
+            </li>
+            <li>
+                <div id="im3">
+                    <img src="http://www.hariomequipments.com/demos/home/kitchen-serving-0eq.jpg" alt="Kitchen Equipment" />
+                </div>
+                <div id="hd3">
+                    <h1>Kitchen Equipment</h1>
+                </div>
+            </li>
+            <li>
+                <div id="im4">
+                    <img src="https://dl2.pushbulletusercontent.com/HslT4gXF70LLM4jGoKMLIwcDy1HF9Uio/images%20%282%29.jpg" alt="Material Handling Conveyors"
+                    />
+                </div>
+                <div id="hd4">
+                    <h1>Material handling Conveyors</h1>
+                </div>
+            </li>
+            <li>
+                <div id="im5">
+                    <img src="https://dl2.pushbulletusercontent.com/J1zvzKlxPKQ7Envd3gcxZWBA95LUeXP3/images%20%283%29_01.jpg" alt="Metal press components"
+                    />
+                </div>
+                <div id="hd5">
+                    <h1>Metal press<br>Components</h1>
+                </div>
+            </li>
+
+            <li>
+                <div id="im6">
+                    <img src="https://dl2.pushbulletusercontent.com/lYNmlBfMvZCex4yAIdn6CnI0AHMOUoBn/Raychem-RPG-RGM12S1C-Gaskets-Cable-Gland-Accessories.jpg_200x200_01.jpg"
+                    />
+                </div>
+                <div id="hd6">
+                    <h1>Plastic moulded<br>Components</h1>
+                </div>
+            </li>
+            <li>
+                <div id="im7">
+                    <img src="https://dl2.pushbulletusercontent.com/dZwrAv1DIGoDy5rdglqioaCRvrbhGuZc/10mmoringcat225_01.jpg" alt="Rubber O Rings"
+                    />
+                </div>
+                <div id="hd7">
+                    <h1>Rubber O Rings</h1>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="clientele">
+        <p> </p>
+        <hr id="first"/>
+        <p>clientele</p>
+        <hr id="second"/>
+        <p>   </p>
+    </div>
+        
+    <div id="footer">
+        <ul>
+            <li id="f1"><img src="http://supplyzone.in/img/emailicon.png" />
+                <p>jcbhatt@supplyzone.com</p>
+            </li>
+            <li id="f2"></li>
+            <li id="f3"></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+*{margin :0px ;padding :0px;}
+.body{
+    width: 100%;
+    height: 80%;
+    background: url(/home/anu/Pictures/wallpapers/swirl_pattern.png);
+}
+a{
+    text-decoration: none;
+}
+.mainheader{
+    width: 100%;
+    height: 60px;
+    background:#3e3e3e;
+    position: relative;
+    bottom: 10px;
+   /* opacity: 0.7;
+    filter: alpha (opacity=70);*/
+}
+.navbar{
+    width: 400px;
+    height: 60px;
+    float: right;
+    background: #3e3e3e;
+    /*opacity: 0.7;
+    filter: alpha (opacity=70);*/
+}
+.navbar li{
+    width: 95px;
+    list-style: none;
+    float: left;
+    /*border-right: 1px solid white;*/
+    border-left: 1px solid white;
+}
+.navbar li a{
+    display: block;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 60px;
+}
+li a:hover{
+    background-color: rgba(0,0,0,0.1); 
+    box-shadow: inset 0 50px rgba(255,255,255,0.2);
+    color:white;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin: 2px 0;
+    margin-right: 3px;
+    padding-right: 20px;
+}
+.a{
+    
+position: relative;
+top: 205px;
+}
+  .c4{
+      position: relative;
+      background: #3e3e3e;
+      padding-left:0;
+      padding-right:0;
+  }
+  .r4{
+      width: 100%;
+      text-align: center;
+  }
+  #pg1{
+      color: white;
+  }
+  .x1{
+      text-align: center;
+  }
+  .copyright{
+      text-align: center;
+      color: white;
+      background: black;
+      position: relative;
+      top: 7px;
+  }
+@media (max-width: 800px) and (min-width: 355px)
+{
+.body{
+    text-align: center;
+}
+.navbar{
+        width: auto;
+        float: none;}
+    .navbar li{
+        width: auto;
+        }
+        .navbar li a{
+            widows: auto;
+        }
+    .logo{
+        width: auto;
+        float: none;
+        padding-right: none;}
+}
